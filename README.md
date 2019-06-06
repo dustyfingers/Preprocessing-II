@@ -40,8 +40,8 @@ Follow these steps for completing your project.
 ## Task 4: Desktop Updates Needed
 * [x] Review the [desktop design file](design-files/fun-bus-desktop.png).  Notice the navigation, header, and buttons at the bottom of the page are missing.
 * [x] Navigation: Use the `navigation.less` file for all your navigation styling
-* [ ] Main Header: Use the `home-page.less` file for the header styling.
-* [ ] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
+* [x] Main Header: Use the `home-page.less` file for the header styling.
+* [x] Buttons: Create a parametric mixin that can create the missing buttons in the design file. Use the `mixins.less` file to create your mixin.
 
 
 ## Task 5: Mobile Updates Needed
@@ -50,7 +50,7 @@ Follow these steps for completing your project.
 * [ ] Match the design file at `500px` as well as you can 
 
 ## Stretch Goals: 
-* [ ] Create an animation mixin using parametric mixins
+* [x] Create an animation mixin using parametric mixins
 * [ ] Introduce a form with inputs allowing users to select a vacation package and a submit button at the bottom of the page. Introduce inputs for name, email, phone number, and an area for them to leave special instructions. 
 * [ ] Style the site to look good at all sizes, not just desktop and phone
 
