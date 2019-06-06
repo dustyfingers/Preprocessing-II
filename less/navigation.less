@@ -1,1 +1,17 @@
 // Navigation Styles here
+@import 'mixins';
+
+.navigation {
+    .flex-row();
+    align-items: center;
+    justify-content:  space-between;
+    margin-top: 1rem;
+    .nav-list {
+        .flex-row();
+        font-size: 2rem;
+        margin-right: 2rem;
+        li {
+            margin-right: 1.5rem;
+        }
+    }
+}
