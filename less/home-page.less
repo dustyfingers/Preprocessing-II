@@ -1,3 +1,5 @@
+
+
 .home {
 
   .content-section {
@@ -5,18 +7,26 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-
+    @media @max-500 {
+      flex-direction: column;
+    }
    
     
     .text-content {
       width: 48%;
       padding-right: 1%;
+      @media @max-500 {
+        width: 100%;
+      }
     }
 
     .img-content {
       width: 48%;
       padding-left: 1%;
-
+      @media @max-500 {
+        width: 100%;
+        margin: 0.5rem auto;
+      }
       img {
         border-radius: 10px;
       }
@@ -26,6 +36,9 @@
   .inverse-content {
     padding-bottom: 30px;
     border-bottom: 2px dashed @navigation-border;
+    @media @max-500 {
+      flex-direction: column-reverse;
+    }
 
     .text-content {
       padding-left: 1%;
@@ -35,12 +48,20 @@
     .img-content {
       padding-right: 1%;
       padding-left: 0;
+      @media @max-500 {
+        width: 100%;
+        margin: 0.5rem auto;
+      }
     }
   }
 
   .content-destination {
     width: 75%;
     margin: 0 auto 30px;
+    @media @max-500 {
+      width: 100%;
+      margin: 0.5rem auto;
+    }
 
     img {
       border-radius: 10px;
@@ -52,10 +73,18 @@
     border-top: 2px dashed @navigation-border;
     display: flex;
     justify-content: space-between;
+    @media @max-500 {
+      flex-direction: column;
+    }
 
     .destination {
       width: 30%;
       margin-bottom: 30px;
+      @media @max-500 {
+        width: 85%;
+        margin: 0 auto;
+        .y-spacing();
+      }
       .btn {
         .call-to-action-btn();
         &:hover {

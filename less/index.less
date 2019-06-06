@@ -8,3 +8,27 @@
 @import 'footer';
 @import 'home-page';
 
+.container {
+    @media @max-500 {
+        width: 95%;
+        margin: 0 auto;
+    }
+}
+
+.navigation {
+    @media @max-500 {
+        flex-direction: column;
+        justify-content: center;
+    }
+    .nav-list {
+        @media @max-500 {
+            margin: 0;
+            .y-spacing();
+        }
+    }
+}
+
+.navigation-main {
+    
+    .y-spacing();
+}
